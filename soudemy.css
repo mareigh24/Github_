@@ -151,23 +151,19 @@ h4 {
   margin-top: 20px;
 }
 #bed {
-  margin-top: -200px;
+  margin-top: 0px;
   margin-left: 110px;
-  position: absolute;
 }
 #bath {
   margin-left: 330px;
-  margin-top: -200px;
-  position: absolute;
+  margin-top: -95px;
 }
 #garage {
-  margin-top: -80px;
+  margin-top: 20px;
   margin-left: 110px;
-  position: absolute;
 }
 #kitchen {
-  position: absolute;
-  margin-top: -80px;
+  margin-top: -85px;
   margin-left: 330px;
 }
 .property {

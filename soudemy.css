@@ -63,6 +63,7 @@ body {
 }
 #search {
   margin-left: 300px;
+  margin-right: -50px;
 }
 #sky {
   z-index: 1;

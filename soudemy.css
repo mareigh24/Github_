@@ -1,9 +1,6 @@
 body {
   font-family: "font-family: 'Poppins', sans-serif;";
 }
-.heropage {
-  width: 100%;
-}
 .container {
   position: relative;
   background: white;
@@ -66,11 +63,12 @@ body {
 }
 #search {
   margin-left: 300px;
-  margin-right: -50px;
+  margin-right: 10px;
 }
 #sky {
   z-index: 1;
   margin-left: -30px;
+  width: 100%;
 }
 .box {
   width: 331px;
@@ -169,6 +167,10 @@ h4 {
   margin-top: -85px;
   margin-left: 330px;
 }
+hr {
+  width: 70%;
+  margin-left: -150px;
+}
 .property {
   font-size: 16px;
   font-family: "Poppins";
@@ -181,29 +183,13 @@ h4 {
   position: absolute;
   z-index: 1;
 }
-.view {
-  z-index: 2;
-  position: absolute;
-  margin-top: 320px;
-  margin-left: 35px;
-}
-.quiet {
-  z-index: 2;
-  position: absolute;
-  margin-top: 320px;
-  margin-left: 35px;
-}
-.housing {
-  z-index: 2;
-  position: absolute;
-  margin-top: 320px;
-  margin-left: 35px;
-}
+
 .container-fluid {
   height: 550px;
   position: relative;
   background: #0a0a0a;
   top: 500px;
+  width: 100%;
 }
 .image {
   position: relative;
@@ -362,10 +348,6 @@ button {
   margin-left: -90px;
 }
 .footer {
-  border: 1px solid white;
-  border-left: none;
-  border-top: none;
-  border-right: none;
   margin-right: -20px;
   padding-bottom: 20px;
 }
@@ -374,4 +356,8 @@ button {
 }
 .enquire {
   margin-left: -70px;
+}
+footer hr {
+  width: 100%;
+  margin-left: 50px;
 }
